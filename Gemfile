@@ -11,3 +11,4 @@ gem "rake-compiler"
 
 gem "rspec", "~> 3.0"
 
+gem "rice"

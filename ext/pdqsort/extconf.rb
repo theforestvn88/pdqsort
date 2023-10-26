@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "mkmf"
+require "mkmf-rice"
 
 # Makes all symbols private by default to avoid unintended conflict
 # with other gems. To explicitly export symbols you can use RUBY_FUNC_EXPORTED

@@ -3,7 +3,8 @@
 require_relative "pdqsort/version"
 require_relative "pdqsort/pdqsort"
 
-module Pdqsort
-  class Error < StandardError; end
-  # Your code goes here...
+class Array
+  def pdqsort
+    Pdqsort.sort(self).to_a
+  end
 end

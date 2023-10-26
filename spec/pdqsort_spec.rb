@@ -6,6 +6,7 @@ RSpec.describe Pdqsort do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    a = (1..1000000).to_a.shuffle
+    expect(a.pdqsort).to eq((1..1000000).to_a)
   end
 end
