@@ -5,12 +5,12 @@ require "rspec/core/rake_task"
 
 RSpec::Core::RakeTask.new(:spec)
 
-require "rake/extensiontask"
+require "rb_sys/extensiontask"
 
 task build: :compile
 
-Rake::ExtensionTask.new("pdqsort") do |ext|
+RbSys::ExtensionTask.new("pdqsort") do |ext|
   ext.lib_dir = "lib/pdqsort"
 end
 
-task default: %i[clobber compile spec]
+task default: %i[compile spec]

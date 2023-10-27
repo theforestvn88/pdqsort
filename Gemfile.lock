@@ -10,7 +10,7 @@ GEM
     rake (13.0.6)
     rake-compiler (1.2.5)
       rake
-    rice (4.1.0)
+    rb_sys (0.9.82)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
@@ -32,7 +32,7 @@ DEPENDENCIES
   pdqsort!
   rake (~> 13.0)
   rake-compiler
-  rice
+  rb_sys (~> 0.9.63)
   rspec (~> 3.0)
 
 BUNDLED WITH

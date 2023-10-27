@@ -1,0 +1,12 @@
+[package]
+name = "pdqsort"
+version = "0.1.0"
+edition = "2021"
+authors = ["theforestvn88 <theforestvn88@gmail.com>"]
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+magnus = { version = "0.6" }

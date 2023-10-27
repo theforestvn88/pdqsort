@@ -5,6 +5,6 @@ require_relative "pdqsort/pdqsort"
 
 class Array
   def pdqsort
-    Pdqsort.sort(self).to_a
+    UnstableSort.pdqsort(self)
   end
 end
